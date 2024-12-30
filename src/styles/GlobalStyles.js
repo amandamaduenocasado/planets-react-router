@@ -25,10 +25,15 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        font-family: sans-serif;
-        color: aliceblue;
-        margin: 0; 
-        background-color: #333;
+        width: 100vw;
+        height: 100vh;
+        background-color: #070724;
+        background-image: url(assets/images/background-stars.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: "League Spartan", serif;
+        font-weight: 400;
+        color: white;
     }
-
 `;
